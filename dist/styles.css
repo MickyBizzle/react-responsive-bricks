@@ -1,9 +1,0 @@
-.brick {
-  overflow: hidden;
-}
-.brick img {
-  transition: transform 0.2s ease-in-out;
-}
-.brick.hovering img {
-  transform: scale(1.2);
-}
