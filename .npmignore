@@ -1,0 +1,6 @@
+node_modules
+public
+src/App.js
+src/App.scss
+src/index.css
+src/index.js
