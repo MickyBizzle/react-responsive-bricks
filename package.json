@@ -1,7 +1,7 @@
 {
   "name": "react-responsive-bricks",
   "description": "A responsive masonry layout for React",
-  "homepage": "https://mab3103.github.io/react-responsive-bricks/",
+  "homepage": "https://mickybizzle.github.io/react-responsive-bricks/",
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "SET NODE_ENV=production && if exist dist rmdir /s /q dist && mkdir dist && npx babel src/Bricks --out-dir dist --copy-files",
+    "publish:npm": "SET NODE_ENV=production & rmdir /s /q dist 2> nul & mkdir dist & npx babel src/Bricks --out-dir dist --copy-files",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1"
   }
 }

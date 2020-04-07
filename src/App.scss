@@ -1,0 +1,21 @@
+.App {
+  .container {
+    display: flex;
+    .col {
+      flex: 1;
+      text-align: center;
+    }
+    .form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      label {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      span {
+        display: block;
+      }
+    }
+  }
+}
