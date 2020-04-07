@@ -2,7 +2,7 @@
   "name": "react-responsive-bricks",
   "description": "A responsive masonry layout for React",
   "homepage": "https://mickybizzle.github.io/react-responsive-bricks/",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
