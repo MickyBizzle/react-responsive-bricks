@@ -1,0 +1,2 @@
+body,html{padding:0;margin:0;font-family:"Lato",sans-serif}.App .container{display:flex}.App .container .col{flex:1 1;text-align:center}.App .container .form{display:flex;justify-content:center;flex-wrap:wrap}.App .container .form label{margin-right:10px;margin-left:10px}.App .container .form span{display:block}.brick{overflow:hidden}.brick img{transition:transform .2s ease-in-out}.brick.hovering img{transform:scale(1.2)}
+/*# sourceMappingURL=main.ae81ae26.chunk.css.map */

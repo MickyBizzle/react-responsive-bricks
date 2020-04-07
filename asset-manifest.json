@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-responsive-bricks/static/css/main.ae81ae26.chunk.css",
+    "main.js": "/react-responsive-bricks/static/js/main.02f5cbb5.chunk.js",
+    "main.js.map": "/react-responsive-bricks/static/js/main.02f5cbb5.chunk.js.map",
+    "runtime-main.js": "/react-responsive-bricks/static/js/runtime-main.c9c67c10.js",
+    "runtime-main.js.map": "/react-responsive-bricks/static/js/runtime-main.c9c67c10.js.map",
+    "static/js/2.5e25bfb6.chunk.js": "/react-responsive-bricks/static/js/2.5e25bfb6.chunk.js",
+    "static/js/2.5e25bfb6.chunk.js.map": "/react-responsive-bricks/static/js/2.5e25bfb6.chunk.js.map",
+    "index.html": "/react-responsive-bricks/index.html",
+    "precache-manifest.106a0221d695e6e9004d342f3dc81515.js": "/react-responsive-bricks/precache-manifest.106a0221d695e6e9004d342f3dc81515.js",
+    "service-worker.js": "/react-responsive-bricks/service-worker.js",
+    "static/css/main.ae81ae26.chunk.css.map": "/react-responsive-bricks/static/css/main.ae81ae26.chunk.css.map",
+    "static/js/2.5e25bfb6.chunk.js.LICENSE.txt": "/react-responsive-bricks/static/js/2.5e25bfb6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9c67c10.js",
+    "static/js/2.5e25bfb6.chunk.js",
+    "static/css/main.ae81ae26.chunk.css",
+    "static/js/main.02f5cbb5.chunk.js"
+  ]
+}
