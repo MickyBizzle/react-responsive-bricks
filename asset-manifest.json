@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-responsive-bricks/static/css/main.ae81ae26.chunk.css",
-    "main.js": "/react-responsive-bricks/static/js/main.febc92ef.chunk.js",
-    "main.js.map": "/react-responsive-bricks/static/js/main.febc92ef.chunk.js.map",
+    "main.js": "/react-responsive-bricks/static/js/main.925c2ee1.chunk.js",
+    "main.js.map": "/react-responsive-bricks/static/js/main.925c2ee1.chunk.js.map",
     "runtime-main.js": "/react-responsive-bricks/static/js/runtime-main.c9c67c10.js",
     "runtime-main.js.map": "/react-responsive-bricks/static/js/runtime-main.c9c67c10.js.map",
     "static/js/2.5e25bfb6.chunk.js": "/react-responsive-bricks/static/js/2.5e25bfb6.chunk.js",
     "static/js/2.5e25bfb6.chunk.js.map": "/react-responsive-bricks/static/js/2.5e25bfb6.chunk.js.map",
     "index.html": "/react-responsive-bricks/index.html",
-    "precache-manifest.21dd93234e44cfe86a02f7d03a5ab9c8.js": "/react-responsive-bricks/precache-manifest.21dd93234e44cfe86a02f7d03a5ab9c8.js",
+    "precache-manifest.64bae7b1c7aa7ebb24ab5dee74eb0ae9.js": "/react-responsive-bricks/precache-manifest.64bae7b1c7aa7ebb24ab5dee74eb0ae9.js",
     "service-worker.js": "/react-responsive-bricks/service-worker.js",
     "static/css/main.ae81ae26.chunk.css.map": "/react-responsive-bricks/static/css/main.ae81ae26.chunk.css.map",
     "static/js/2.5e25bfb6.chunk.js.LICENSE.txt": "/react-responsive-bricks/static/js/2.5e25bfb6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c9c67c10.js",
     "static/js/2.5e25bfb6.chunk.js",
     "static/css/main.ae81ae26.chunk.css",
-    "static/js/main.febc92ef.chunk.js"
+    "static/js/main.925c2ee1.chunk.js"
   ]
 }
