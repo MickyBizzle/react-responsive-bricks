@@ -185,6 +185,15 @@ function App() {
               Unsplash Source
             </a>
           </p>
+          <p>
+            Check out the code{" "}
+            <a
+              href="https://github.com/MickyBizzle/react-responsive-bricks"
+              target="blank"
+            >
+              here
+            </a>
+          </p>
         </div>
       </div>
       <Bricks

@@ -95,14 +95,43 @@ export const Bricks = (props) => {
   );
 };
 
+function minimumValPropTest(props, propName, componentName) {
+  if (props[propName]) {
+    let value = props[propName];
+    switch (propName) {
+      case "columns":
+        return value > 0
+          ? null
+          : new Error(
+              `${propName} in ${componentName} requires a value greater than 0`
+            );
+      case "gap":
+        return value > -1
+          ? null
+          : new Error(
+              `${propName} in ${componentName} requires a value of 0 or greater`
+            );
+      case "minWidth":
+        return value > 0
+          ? null
+          : new Error(
+              `${propName} in ${componentName} requires a value greater than 0`
+            );
+      default:
+        new Error(`Invalid prop ${propName} passed to ${componentName}`);
+    }
+  }
+  return null;
+}
+
 Bricks.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       imgSrc: PropTypes.string,
     })
   ).isRequired,
-  columns: PropTypes.number,
-  gap: PropTypes.number,
-  minWidth: PropTypes.number,
+  columns: minimumValPropTest,
+  gap: minimumValPropTest,
+  minWidth: minimumValPropTest,
   backgroundColor: PropTypes.string,
 };
